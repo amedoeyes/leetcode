@@ -1,8 +1,8 @@
 import romanToInteger from "../problems/romanToInteger";
 
 describe("Roman to Integer", () => {
-	test("3", () => {
-		expect(romanToInteger("III")).toEqual(1);
+	test("III", () => {
+		expect(romanToInteger("III")).toEqual(3);
 	});
 
 	test("LVIII", () => {
